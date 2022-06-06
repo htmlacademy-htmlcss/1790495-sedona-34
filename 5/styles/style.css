@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
+    font-display: swap;
+  }
+ @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+    }
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: Bold;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
+    font-display: swap;
+    }
+      
+@font-face {
+    font-family: "PT Sans";
+    font-style: Bold;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+    }
+
+ @font-face {
+    font-family: "PT Sans";
+    font-style: Regular;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
+    font-display: swap;
+    }
+
+    body {
+        font-family: "PT Sans", sans-serif;
+        font-size: 18px;
+        font-style: Regular;
+        color: black;
+    }
+    
+    .navigation-list {
+        font-family: PT Sans;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .navigation-button {
+        font-family: PT Sans;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 97%;
+        background-color: #756157;
+        color: aliceblue;
+        text-align: center;
+    
+    }
+
+    .advantage-sedona {
+        font-family: PT Sans;
+        font-style: Bold;
+        font-size: 30px;
+        line-height: 36px;
+        color:black;
+    }
+
+    .advantage-reasons {
+        font-size: PT Sans;
+        font-size: Regular;
+        font-size: 22px;
+        line-height: 26px;
+        line-height: 91%;
+        text-align: center;
+    }
+
+    .advantage-container {
+        background-color: #82B3D3;
+        width: 400px;
+        height: 384px;
+        color: #FFFFFF;
+    }
+
+    .advantage-title {
+        font-size: PT Sans;
+        font-size: Bold;
+        font-size: 24px;
+        line-height: 28px;
+        line-height: 90%;
+        vertical-align: top;
+        text-align: center; 
+        
+    }
+
+    .advantage-namber {
+        font-size: PT Sans;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 21px;
+        line-height: 90%;
+        text-align: Center;
+        
+    }
+
+    .advantage-discraptions {
+        font-size: PT Sans;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 21px;
+        line-height: 90%;
+        text-align: Center;
+        vertical-align: top;
+        
+    }
