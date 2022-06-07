@@ -32,75 +32,30 @@
 
     body {
         font-family: "PT Sans", sans-serif;
-        font-size: 18px;
+        font-size: 22px;
         font-style: Regular;
+        line-height: 26px;
         color: black;
     }
 
     .visually-hidden {
         visibility: hidden;
     }
+
+    .navigation {
+        font-style: Bold;
+    }
     
     .navigation-list {
-        font-style: Bold;
         font-size: 20px;
         line-height: 26px;
     }
     .navigation-button {
-        font-family: PT Sans;
-        font-style: Bold;
         font-size: 16px;
         line-height: 97%;
         background-color: #756157;
         color: aliceblue;
         text-align: center;
-    }
-
-    .advantage-sedona {
-        font-family: PT Sans;
-        font-style: Bold;
-        font-size: 30px;
-        line-height: 36px;
-        color:black;
-    }
-
-    .advantage-reasons {
-        font-size: 22px;
-        line-height: 26px;
-        line-height: 91%;
-        text-align: center;
-    }
-
-    .advantage-container {
-        background-color: #82B3D3;
-        width: 400px;
-        height: 384px;
-        color: #FFFFFF;
-    }
-
-    .advantage-title {
-        font-size: Bold;
-        font-size: 24px;
-        line-height: 28px;
-        line-height: 90%;
-        vertical-align: top;
-        text-align: center; 
-        
-    }
-
-    .advantage-namber {
-        line-height: 21px;
-        line-height: 90%;
-        text-align: Center;
-        
-    }
-
-    .advantage-discraptions {
-        line-height: 21px;
-        line-height: 90%;
-        text-align: Center;
-        vertical-align: top;
-        
     }
 
     .sedona-city {
@@ -116,11 +71,55 @@
 
     }
 
+    .advantage {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .advantage-sedona {
+        font-style: Bold;
+        font-size: 30px;
+        line-height: 36px;
+        color:black;
+    }
+
+    .advantage-reasons {
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .advantage-container {
+        background-color: #82B3D3;
+        width: 400px;
+        height: 384px;
+        color: #FFFFFF;
+    }
+
+    .advantage-title {
+        font-size: Bold;
+        font-size: 24px;
+        line-height: 28px;
+        vertical-align: top;
+        text-align: center; 
+        
+    }
+
+    .advantage-namber {
+        line-height: 21px;
+        text-align: Center;
+     
+    }
+
+    .advantage-discraptions {
+        line-height: 21px;
+        text-align: Center;
+        vertical-align: top;
+        
+    }
 
     .booking-search {
-        font-family: "PT Sans", sans-serif;
         font-size: 22px;
-        font-style: Regular;
         color: black;
         line-height: 26px;
     }
@@ -148,8 +147,6 @@
 /*catalog*/
     .catalog {
         color: black;
-        font-family: "PT Sans", sans-serif;
-        font-style: Regular;
         font-size: 18px;
         line-height: 21px;
         text-align: left;
@@ -211,8 +208,6 @@
         background-repeat: no-repeat;
         background-size: 100% auto;
         color: #FFFFFF;
-        font-family: "PT Sans", sans-serif;
-        font-style: Regular;
         font-size: 18px;
         line-height: 21px;
     }
@@ -232,8 +227,6 @@
     }
 
     .list-filter {
-        font-family: "PT Sans", sans-serif;
-        font-style: Regular;
         font-size: 18px;
         line-height: 21px;
         text-align: left;
@@ -258,7 +251,6 @@
 
     .number of pages {
         color: #333333;
-        font-style: Regular;
         font-size: 18px;
         line-height: 21px
     }
@@ -294,7 +286,6 @@
     }
 
     .subscription-footer-info {
-        font-style: Regular;
         font-size: 22px;
         line-height: 26px;
         text-align: center;
