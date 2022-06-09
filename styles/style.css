@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: Regular;
     font-weight: 700;
-    src: url("fonts/ptsans-700.woff2.woff2") format("woff2");
+    src: url("fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
     }
 
@@ -10,15 +10,15 @@
     font-family: "PT Sans";
     font-style: Bold;
     font-weight: 400;
-    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
+    src: url("fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
     }
-      
+
 @font-face {
     font-family: "PT Sans";
     font-style: Bold;
     font-weight: 700;
-    src: url("fonts/ptsans-700.woff2.woff2") format("woff2");
+    src: url("fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
     }
 
@@ -26,12 +26,12 @@
     font-family: "PT Sans";
     font-style: Regular;
     font-weight: 400;
-    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
+    src: url("fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
     }
 
     body {
-        font-family: "PT Sans", sans-serif;
+        font-family: "PT Sans", Arial, sans-serif;
         font-size: 22px;
         font-style: Regular;
         line-height: 26px;
@@ -45,14 +45,14 @@
     .navigation {
         font-style: Bold;
     }
-    
+
     .navigation-list {
         font-size: 20px;
         line-height: 26px;
     }
     .navigation-button {
         font-size: 16px;
-        line-height: 97%;
+        line-height: 20px;
         background-color: #756157;
         color: aliceblue;
         text-align: center;
@@ -69,11 +69,6 @@
         margin-left: auto;
         margin-right: auto;
 
-    }
-
-    .advantage {
-        font-size: 18px;
-        line-height: 21px;
     }
 
     .advantage-sedona {
@@ -97,25 +92,26 @@
     }
 
     .advantage-title {
-        font-size: Bold;
+        font-style: Bold;
         font-size: 24px;
         line-height: 28px;
         vertical-align: top;
-        text-align: center; 
-        
+        text-align: center;
+
     }
 
     .advantage-namber {
         line-height: 21px;
-        text-align: Center;
-     
+        text-align: center;
+
     }
 
     .advantage-discraptions {
+        font-size: 18px;
         line-height: 21px;
-        text-align: Center;
+        text-align: center;
         vertical-align: top;
-        
+
     }
 
     .booking-search {
@@ -241,7 +237,7 @@
         vertical-align: top;
     }
 
-    .pagination a {   
+    .pagination a {
         font-style: Bold;
         font-size: 20px;
         line-height: 36px;
@@ -260,7 +256,7 @@
         height: 49px;
     }
 
-    
+
  /*footer*/
     .main-footer {
         color: #FFFFFF;
