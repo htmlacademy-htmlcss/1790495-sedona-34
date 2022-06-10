@@ -1,15 +1,8 @@
 @font-face {
     font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
-    font-display: swap;
-  }
- @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
+    font-style: Regular;
     font-weight: 700;
-    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
     }
 
@@ -17,15 +10,15 @@
     font-family: "PT Sans";
     font-style: Bold;
     font-weight: 400;
-    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
     }
-      
+
 @font-face {
     font-family: "PT Sans";
     font-style: Bold;
     font-weight: 700;
-    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
     }
 
@@ -33,36 +26,52 @@
     font-family: "PT Sans";
     font-style: Regular;
     font-weight: 400;
-    src: url("fonts/ptsans-400.woff2.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
     }
 
     body {
-        font-family: "PT Sans", sans-serif;
-        font-size: 18px;
+        font-family: "PT Sans", Arial, sans-serif;
+        font-size: 22px;
         font-style: Regular;
+        line-height: 26px;
         color: black;
     }
-    
-    .navigation-list {
-        font-family: PT Sans;
+
+    .visually-hidden {
+        visibility: hidden;
+    }
+
+    .navigation {
         font-style: Bold;
+    }
+
+    .navigation-list {
         font-size: 20px;
         line-height: 26px;
     }
     .navigation-button {
-        font-family: PT Sans;
-        font-style: Bold;
         font-size: 16px;
-        line-height: 97%;
+        line-height: 20px;
         background-color: #756157;
         color: aliceblue;
         text-align: center;
-    
+    }
+
+    .sedona-city {
+        background-image: url(../images/index-background.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .sedona-city-title {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .advantage-sedona {
-        font-family: PT Sans;
         font-style: Bold;
         font-size: 30px;
         line-height: 36px;
@@ -70,11 +79,8 @@
     }
 
     .advantage-reasons {
-        font-size: PT Sans;
-        font-size: Regular;
         font-size: 22px;
         line-height: 26px;
-        line-height: 91%;
         text-align: center;
     }
 
@@ -86,33 +92,219 @@
     }
 
     .advantage-title {
-        font-size: PT Sans;
-        font-size: Bold;
+        font-style: Bold;
         font-size: 24px;
         line-height: 28px;
-        line-height: 90%;
         vertical-align: top;
-        text-align: center; 
-        
+        text-align: center;
+
     }
 
     .advantage-namber {
-        font-size: PT Sans;
-        font-style: Regular;
-        font-size: 18px;
         line-height: 21px;
-        line-height: 90%;
-        text-align: Center;
-        
+        text-align: center;
+
     }
 
     .advantage-discraptions {
-        font-size: PT Sans;
-        font-style: Regular;
         font-size: 18px;
         line-height: 21px;
-        line-height: 90%;
-        text-align: Center;
+        text-align: center;
         vertical-align: top;
-        
+
+    }
+
+    .booking-search {
+        font-size: 22px;
+        color: black;
+        line-height: 26px;
+    }
+
+    .booking-search-item {
+        font-style: Bold;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .booking-search-item-info {
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .booking-search-container {
+        text-align: center;
+    }
+
+    .booking-search-button {
+        background-color: #756157;
+        color: #FFFFFF;
+    }
+/*catalog*/
+    .catalog {
+        color: black;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .catalog-header-title {
+        font-style: Bold;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .product-card-favorites {
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 20px;
+        background-color: #82B3D3;
+        color: #FFFFFF;
+    }
+    .product-card-favorites-green {
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        background-color: #7DB54F;
+    }
+
+    .select-control {
+        width: 290px;
+        height: 49px;
+    }
+
+    .rating-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .product-card-title {
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .product-name {
+        color: #333333;
+    }
+
+    .product-card-button button {
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #756157;
+        color: #FFFFFF;
+    }
+
+    .main-inner {
+        background-image: url(../images/background-catalog.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .iner-header-title {
+        font-style: Bold;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .breadcrumbs {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 20px));
+
+    }
+
+    .list-filter {
+        font-size: 18px;
+        line-height: 21px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .catalog-filter-title {
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .pagination a {
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+
+    }
+
+    .number of pages {
+        color: #333333;
+        font-size: 18px;
+        line-height: 21px
+    }
+
+    .number of pages-info {
+        width: 160px;
+        height: 49px;
+    }
+
+
+ /*footer*/
+    .main-footer {
+        color: #FFFFFF;
+    }
+
+    .subscription-footer {
+        background-image: url(../images/background-footer.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        height: 411px;
+    }
+
+    .subscription-footer-catalog {
+        background-image: none;
+    }
+
+    .subscription-footer-title {
+        font-style: Bold;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .subscription-footer-info {
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .field-email {
+        text-align: center;
+    }
+
+    .subscription-footer-form {
+        width: 600px;
+        height: 60px;
+    }
+
+    .subscription-footer-button {
+        background-color: #82B3D3;
+        color: #FFFFFF;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+        vertical-align: center;
+        width: 200px;
+        height: 60px;
     }
