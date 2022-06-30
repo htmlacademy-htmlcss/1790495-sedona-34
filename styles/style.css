@@ -584,15 +584,41 @@
         font-style: Bold;
         font-size: 30px;
         line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    .select-form {
+
+    }
+
+    .select-control {
+        color: #333333;
+        padding: 14px 129px 14px 20px;
+        width: 290px;
+        height: 49px;
+    }
+
+    .view-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .view-button {
+        width: 48px;
+        height: 48px;
+        border: 0;
     }
 
     .product-cont-top {
         width: 1056px;
         display: flex;
+        max-height: 438px;
     }
 
     .product-cont-bottom {
-
+        max-height: 438px;
     }
 
     .product-card-list {
@@ -615,85 +641,103 @@
 
     }
 
-    .product-card-title {
-        font-style: Bold;
-        font-size: 24px;
-        line-height: 28px;
+    .product-card-link {
+        text-decoration: none;
     }
 
-    .product-name {
+    .product-card-img {
+        margin-bottom: 16px;
+    }
+
+    .product-card-title {
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+
+    .box-name-p {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
         color: #333333;
     }
 
-    .product-card-button button {
-        font-style: Bold;
+    .product-name {
+        width: 140px;
+        margin-right: 20px;
+    }
+
+    .product-price {
+        width: 140px;
+    }
+
+    .product-card-button {
         font-size: 16px;
         line-height: 20px;
         text-align: center;
         background-color: #756157;
         color: #FFFFFF;
+        min-width: 140px;
+        text-transform: uppercase;
+        padding: 9px 21px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-decoration: none;
+        margin-right: 20px;
     }
 
     .product-card-favorites {
-
-    }
-
-    .rating {
-
-    }
-
-    .rating-stars {
-
-    }
-
-    .product-card-favorites {
-        font-style: Bold;
         font-size: 16px;
         line-height: 20px;
         background-color: #82B3D3;
         color: #FFFFFF;
+        min-width: 140px;
+        text-transform: uppercase;
+        padding: 9px 15px;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+        text-decoration: none;
     }
     .product-card-favorites-green {
-        font-style: Bold;
         font-size: 16px;
         line-height: 20px;
         color: #FFFFFF;
         background-color: #7DB54F;
+        min-width: 140px;
+        text-transform: uppercase;
+        padding: 9px 15px;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+        text-decoration: none;
     }
 
-    .select-control {
-        width: 290px;
-        height: 49px;
+    .rating {
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .rating-stars {
+        margin-right: 20px;
+        width: 140px;
     }
 
     .rating-text {
         font-size: 16px;
         line-height: 20px;
-    }
-
-    .product-card-title {
-        font-style: Bold;
-        font-size: 24px;
-        line-height: 28px;
-    }
-
-    .product-name {
-        color: #333333;
-    }
-
-    .product-card-button button {
-        font-style: Bold;
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;
-        background-color: #756157;
-        color: #FFFFFF;
+        width: 140px;
+        background: #F2F2F2;
+        border-radius: 4px;
+        padding: 9px 22px;
     }
 
     .pagination {
         display: flex;
         justify-content: space-between;
-        justify-content: ;
+        margin-left: 73px;
     }
 
     .pagination-list {
@@ -712,9 +756,8 @@
         margin-bottom: 25px;
     }
 
-    .pagination-item:nth-child(1) {
-        background: #F2F2F2;
-
+    .pagination-item:first-child {
+        background-color: #F2F2F2;
     }
 
     .pagination-link {
@@ -722,32 +765,45 @@
         color: #FFFFFF;
         display: block;
         padding-top: 11.36px;
-    }
-
-    .pagination-link:nth-child(1) {
-
-    }
-
-
-
-
-    .pagination a {
-        font-style: Bold;
         font-size: 20px;
         line-height: 36px;
         text-align: center;
+    }
 
+    .pagination-link-pagination-current {
+        color: #000000;
+        display: block;
+        padding-top: 11.36px;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
     }
 
     .number-pages {
+        margin-right: 70px;
         color: #333333;
         font-size: 18px;
         line-height: 21px
     }
 
+    .number-pages-title {
+        margin-right: 51px;
+    }
+
     .number-pages-info {
         width: 160px;
         height: 49px;
+        padding-left: 20px;
+    }
+
+    .item-decor {
+        width: 1055px;
+        border: 1px solid #E6E6E6;
+        transform: rotate(180deg);
+        margin-top: 66px;
+        margin-right: 72px;
+        margin-left: 73px;
+        margin-bottom: 30px;
     }
 
 
@@ -765,6 +821,7 @@
 
     .subscription-footer-catalog {
         background-image: none;
+        height: 411px;
     }
 
     .subscription-footer-title {
@@ -787,28 +844,29 @@
     .form {
         text-align: center;
         color: #000000;
+        display: flex;
+        justify-content: center;
     }
 
     .subscription-footer-form {
         width: 600px;
         height: 60px;
-        border-radius: 10px;
+        border-radius: 10px 0px 0px 10px;
         background-color: #F2F2F2;
         border: 0;
     }
 
     .subscription-footer-button {
+        font-size: 20px;
         background-color: #82B3D3;
         color: #FFFFFF;
-        font-style: Bold;
-        font-size: 20px;
+        font-weight: 700;
         line-height: 36px;
         text-align: center;
-        vertical-align: center;
         min-width: 200px;
-        height: 60px;
-        margin-left: -6px;
-        border-radius: 10px;
+        padding: 12px 15px;
+
+        border-radius: 0px 10px 10px 0px;
         border: 0;
         text-transform: uppercase;
         cursor: pointer;
@@ -830,6 +888,7 @@
         margin-top: 45px;
         margin-bottom: 35px;
         margin-left: 70px;
+        list-style-type: none;
     }
 
     .footer-item {
@@ -840,6 +899,7 @@
         display: flex;
         justify-content: space-evenly;
         width: 835px;
+        list-style-type: none;
     }
 
     .contacts-phone {
