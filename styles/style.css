@@ -818,33 +818,34 @@
     }
 
     .product-cont-top {
-        width: 1056px;
+        max-width: 1056px;
         display: flex;
         max-height: 438px;
     }
 
     .product-cont-bottom {
         max-height: 438px;
+        display: flex;
     }
 
     .product-card-list {
+        display: flex;
+    }
+
+    .product-card-item {
         list-style-type: none;
         padding: 20px;
         margin-right: 18px;
         width: 340px;
     }
 
-    .product-card-list:nth-child(1) {
+    .product-card-item:nth-child(1) {
         padding: 20px;
         padding-bottom: 207px;
         margin-right: 18px;
         margin-left: 73px;
         list-style-type: none;
         width: 340px;
-    }
-
-    .product-card-item {
-
     }
 
     .product-card-link {
